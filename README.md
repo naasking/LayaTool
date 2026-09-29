@@ -1,10 +1,10 @@
 # Laya Decide — OpenWebUI tool
 
-An [OpenWebUI](https://github.com/open-webui/open-webui) tool that lets a chat model hand structured decisions to a [Laya](https://laya.convaiinnovations.com/) decision model: classify text into one label, rate it on an ordered scale, or estimate how likely a statement about it is true.
+An [OpenWebUI](https://github.com/open-webui/open-webui) tool that lets a chat model hand structured decisions to a [Laya](https://laya.convaiinnovations.com/) decision model: classify text into one label, rate it on an ordered scale, or estimate how likely a statement about it is true. Laya is a Jev-compatible decision model.
 
-The chat model writes the questions once and passes in any number of texts. The tool sends them to your Laya server in parallel and returns calibrated probabilities, flagging the decisions that are too uncertain to state as fact.
+The OpenWebUI chat model writes the questions once and passes in any number of texts. This tool sends the questions to your Laya server in parallel and returns calibrated probabilities, flagging the decisions that are too uncertain to state as fact.
 
-Laya was run locally with all 3 model checkpoints, and it was tested against Qwen3.8-27B served locally as well.
+Laya was run locally with all 3 model checkpoints, and it was tested against Qwen3.8-27B served locally as well, so you can have a fully local experience.
 
 ## Features
 
