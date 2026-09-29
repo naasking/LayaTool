@@ -1,4 +1,4 @@
-# Laya Decide — OpenWebUI tool
+# Laya Decide — OpenWebUI tool for Jev-compatible Backends
 
 An [OpenWebUI](https://github.com/open-webui/open-webui) tool that lets a chat model hand structured decisions to a [Laya](https://laya.convaiinnovations.com/) decision model: classify text into one label, rate it on an ordered scale, or estimate how likely a statement about it is true. Laya is a Jev-compatible decision model.
 
